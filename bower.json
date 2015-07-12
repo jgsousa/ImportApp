@@ -1,0 +1,26 @@
+{
+  "name": "Tarefas",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jgsousa/TarefasApp",
+  "authors": [
+    "joaosousa <asousa.joao@gmail.com>"
+  ],
+  "description": "Gestao de tarefas",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.1",
+    "ngtoast": "~1.5.4",
+    "angular-bootstrap": "~0.13.0",
+    "angular-nvd3": "~0.1.1",
+    "ag-grid": "~1.9.2",
+    "angular-sanitize": "~1.4.1"
+  }
+}

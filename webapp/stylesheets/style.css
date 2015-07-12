@@ -1,0 +1,75 @@
+.navbar-inverse {
+  color: white;
+  border-radius: 0;
+  background-color: #1b3277;
+  border-color: #1b3277;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: lightgrey;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.dot {
+  color: #9ACD66;
+}
+.tabela {
+  padding-top: 15px;
+  height: 70%;
+  overflow-y: auto;
+}
+thead {
+  background-color: #1b3277;
+  color: white;
+}
+.btn-deloitte {
+  background-color: #9acd66;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.btn-deloitte:hover {
+  background-color: #9acd66;
+  color: white;
+}
+.input-deloitte {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.checkbox-header {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.panel-primary {
+  border: 0;
+  border-color: white;
+}
+.panel-primary > .panel-heading {
+  background-color: #1b3277;
+  margin-bottom: 15px;
+}
+.backlog-grid {
+  margin: 20px;
+}
+.ag-pinned-header {
+  background-color: #1b3277;
+}
+.ag-fresh .ag-header-container {
+  background: linear-gradient(#1b3277, #1b3277);
+  color: white;
+}
+.ag-fresh .ag-header-icon {
+  fill: white;
+  color: white;
+}
+.ag-fresh .ag-root {
+  height: 70%;
+  width: 90%;
+  margin-left: 35px;
+  margin-right: 35px;
+}

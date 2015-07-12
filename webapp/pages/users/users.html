@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="row">
+        <h3 class="col-md-4">Lista de utilizadores</h3>
+
+        <form class="form-inline ">
+            <div class="form-group col-md-6 col-md-offset-2">
+                <input placeholder="Filtro"
+                       class="form-control col-md-1 col-md-offset-4 input-deloitte" ng-model="filtro.name">
+                <a href="#/criaruser" class="btn btn-deloitte col-md-3" role="button">Criar utilizador</a>
+            </div>
+        </form>
+    </div>
+
+    <div class="tabela">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Utilizador</th>
+                <th>Email</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="user in users |filter:filtro">
+                <td><a href="#/users/{{user._id}}">{{user.name}}</a></td>
+                <td>{{user.email}}</td>
+                <td>
+                    <button type="button" class="btn btn-default" ng-click="requestDeleteSelected(user)">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
