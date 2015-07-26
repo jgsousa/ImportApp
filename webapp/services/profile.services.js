@@ -1,4 +1,4 @@
-angular.module(importApp).service('ProfileServices', ['$http', '$q', function ($http, $q) {
+angular.module('importApp').service('ProfileServices', ['$http', '$q', function ($http, $q) {
 
     var apiPath = '/api/profile/';
     this.getAllProfiles = function () {

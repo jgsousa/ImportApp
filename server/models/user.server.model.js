@@ -6,7 +6,8 @@ var UserSchema = new db.Schema({
     password: String,
     partnerId: String,
     updatedAt: {type: Date, default: Date.now},
-    passwordInitial: Boolean
+    passwordInitial: Boolean,
+    isAdmin:Boolean
 });
 
 UserSchema.methods.verifyPassword = function (password) {

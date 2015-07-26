@@ -9,7 +9,7 @@
     "process":true,
     "module":true,
     "__dirname":true,
-    "mainApp":true,
+    "importApp":true,
     "debug":true
   },
   "plugins": [

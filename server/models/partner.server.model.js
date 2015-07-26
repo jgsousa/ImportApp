@@ -33,4 +33,8 @@ PartnerSchema.statics.deleteForId = function (id, callback) {
 
 };
 
+PartnerSchema.statics.getForRoles = function(role, callback){
+  this.find({ roles:[ { role:role }]},{}, callback) ;
+};
+
 module.exports = db.model('Partner', PartnerSchema);

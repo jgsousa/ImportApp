@@ -1,13 +1,13 @@
 var db = require('mongoose');
 
-var actions = {
-  values: 'importer exporter supplier despachante'.split(' '),
-  message: 'Invalid action'
+var roles = {
+  values: 'importer exporter supplier despachante shipping'.split(' '),
+  message: 'Invalid role'
 };
 
 var RoleSchema = new db.Schema({
     name: String,
-    actions:[{ type:String, enum:actions}]
+    actions:[{ type:String, enum:roles}]
 });
 
 RoleSchema.statics.getAllRoles = function (callback) {

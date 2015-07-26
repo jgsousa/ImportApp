@@ -7,7 +7,11 @@ var types = {
 var ArticleSchema = new db.Schema({
     uniqueId:String,
     name:String,
-    type: types
+    type: types,
+    internationalCodes:[{
+        countryId: String,
+        code: String
+    }]
 });
 
 ArticleSchema.statics.getAllArticles = function (callback) {
